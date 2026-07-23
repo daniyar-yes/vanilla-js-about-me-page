@@ -1,0 +1,11 @@
+p {
+    color: #f42fbc;
+}
+
+#first-paragraph {
+    color: rgb(47, 211, 47)
+}
+
+.even-paragraph {
+    border: 3px solid yellow
+}
