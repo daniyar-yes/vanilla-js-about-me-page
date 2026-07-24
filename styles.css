@@ -1,11 +1,21 @@
-p {
-    color: #f42fbc;
+p {}
+
+#first-paragraph {}
+
+.even-paragraph {}
+
+.profile-picture {
+    border-top: 4px solid purple;
+    border-left: 4px solid purple;
+    border-right: 4px solid purple;
+    border-bottom: 4px solid purple;
+    color: pink
 }
 
-#first-paragraph {
-    color: rgb(47, 211, 47)
+.social-links {
+    border: 2px solid yellow
 }
 
-.even-paragraph {
-    border: 3px solid yellow
+.biography {
+    border: 2px solid blue;
 }
