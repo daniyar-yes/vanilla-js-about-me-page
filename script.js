@@ -34,11 +34,12 @@
 
 let number1 = 100;
 
-console.log(number1)
-console.log(number2)
+
+
 
 
 let number2 = 200;
+
 
 
 // data types in JS
@@ -98,7 +99,7 @@ let booleanValue2 = false;
 
 // undefined (exists, but don't have a value)
 let newVariable1;
-console.log(newVariable1)
+
 
 // null - like nothing, but intentional nothing
 // when you don't want to leave the value 'undefined',
@@ -107,7 +108,23 @@ console.log(newVariable1)
 
 // Compound/complex data types
 // {} objects
+
+const jobObject = {
+    jobName: '',
+    jobDescription: ''
+}
 // [] arrays
+
+let myArray = [1,2,'apple', true, false, '12', 12]
+
+
+
+myArray.push('thirteen')
+myArray.push(14)
+myArray.push(true)
+myArray.push(false)
+
+
 
 
 
@@ -126,3 +143,21 @@ console.log(newVariable1)
 // query selectors
 // EVENT LOOP
 // BROWSER ITSELF (how it treats / reads / runs JS)
+
+
+
+// event listeners, functions, binding elements to functions
+
+const myButton = document.querySelector('#testing-btn');
+
+const myName = 'Daniyar';
+
+// const num1 = document event target from input1
+// const num2 = document event target from input2
+
+function addTwoNumbers (num1, num2) {
+    console.log('have called function')
+    // also update the target value of a span id="result-of-addition"
+    return num1 + num2;
+}
+myButton.addEventListener('click', addTwoNumbers)
