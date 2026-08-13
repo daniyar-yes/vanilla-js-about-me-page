@@ -28,3 +28,8 @@ img {
 .main-column-left {
     min-width: 200px;
 }
+
+.checked-item {
+    text-decoration: line-through;
+    color: #888; /* Optional: dims the text color */
+}
